@@ -15,7 +15,6 @@ console.log(promise1);                     // no resolve, no reject = promise { 
 
 
 
-
 promise1.then((res) =>{
 
    console.log(res);
