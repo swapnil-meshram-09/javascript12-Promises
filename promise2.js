@@ -7,7 +7,7 @@ const promise = new Promise((resolve, reject) =>{
 
         //reject('rejected')
 
-        let error = true 
+        let error = false 
 
         if(!error){
             resolve('resolved')
