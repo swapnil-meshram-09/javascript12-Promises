@@ -12,3 +12,19 @@ const promise = new Promise((resolve, reject) =>{
 })
 
 
+
+
+
+
+// error = true, Uncaught (in promise) rejected
+
+async function resolving(){
+    const response = await promise
+    console.log(response);
+ 
+}
+
+
+
+
+resolving()
