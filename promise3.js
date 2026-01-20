@@ -14,7 +14,7 @@ const promise = new Promise((resolve, reject) =>{
 
 
 
-
+/*
 
 // error = true, Uncaught (in promise) rejected
 
@@ -24,7 +24,19 @@ async function resolving(){
  
 }
 
+*/
 
 
+async function resolving(){
+    try{
+        const response = await promise
+        console.log(response);
+        
+        
+    } catch(error){
+        console.log(`error: ${error}`);
+        
+    }
+}
 
 resolving()
