@@ -2,7 +2,12 @@
 const promise = new Promise((resolve, reject) =>{
     setTimeout(() =>{
         // console.log('Promises');
-        resolve('resolved')
+        
+        //resolve('resolved')
+
+        //reject('rejected')
+
+        
     }, 1000)
 })
 
