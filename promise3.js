@@ -1,7 +1,7 @@
 
 const promise = new Promise((resolve, reject) =>{
     setTimeout(() =>{
-        let error = false
+        let error = true
 
         if(!error){
             resolve('resolved')
