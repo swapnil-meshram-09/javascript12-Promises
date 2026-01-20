@@ -7,7 +7,7 @@ const promise = new Promise((resolve, reject) =>{
 
         //reject('rejected')
 
-        let error = false 
+        let error = true 
 
         if(!error){
             resolve('resolved')
@@ -28,6 +28,6 @@ promise
     
 })
 .catch((error) =>{
-    console.log(error);
+    console.log('error: ',error);
     
 })
